@@ -28,56 +28,56 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.dgvWords = new System.Windows.Forms.DataGridView();
             this.clm1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clm2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clm3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clm4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clm5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.mtxtInput = new System.Windows.Forms.MaskedTextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvWords)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvWords
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.ColumnHeadersVisible = false;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvWords.AllowUserToAddRows = false;
+            this.dgvWords.AllowUserToDeleteRows = false;
+            this.dgvWords.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvWords.ColumnHeadersVisible = false;
+            this.dgvWords.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.clm1,
             this.clm2,
             this.clm3,
             this.clm4,
             this.clm5});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dataGridView1.Location = new System.Drawing.Point(13, 13);
-            this.dataGridView1.MultiSelect = false;
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersVisible = false;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView1.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridView1.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.SystemColors.Window;
-            this.dataGridView1.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(253, 135);
-            this.dataGridView1.TabIndex = 1;
-            this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvWords.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvWords.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.dgvWords.Location = new System.Drawing.Point(13, 13);
+            this.dgvWords.MultiSelect = false;
+            this.dgvWords.Name = "dgvWords";
+            this.dgvWords.ReadOnly = true;
+            this.dgvWords.RowHeadersVisible = false;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            this.dgvWords.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.dgvWords.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dgvWords.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.SystemColors.Window;
+            this.dgvWords.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            this.dgvWords.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.dgvWords.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.dgvWords.Size = new System.Drawing.Size(253, 135);
+            this.dgvWords.TabIndex = 1;
+            this.dgvWords.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
             // clm1
             // 
@@ -119,26 +119,29 @@
             this.clm5.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.clm5.Width = 50;
             // 
-            // maskedTextBox1
+            // mtxtInput
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(13, 154);
-            this.maskedTextBox1.Mask = "AAAAA";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(84, 20);
-            this.maskedTextBox1.TabIndex = 0;
-            this.maskedTextBox1.ValidatingType = typeof(int);
-            this.maskedTextBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.maskedTextBox1_KeyDown);
+            this.mtxtInput.Location = new System.Drawing.Point(13, 154);
+            this.mtxtInput.Mask = "AAAAA";
+            this.mtxtInput.Name = "mtxtInput";
+            this.mtxtInput.Size = new System.Drawing.Size(84, 20);
+            this.mtxtInput.TabIndex = 0;
+            this.mtxtInput.ValidatingType = typeof(int);
+            this.mtxtInput.KeyDown += new System.Windows.Forms.KeyEventHandler(this.maskedTextBox1_KeyDown);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(272, 182);
-            this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.mtxtInput);
+            this.Controls.Add(this.dgvWords);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(288, 221);
+            this.MinimumSize = new System.Drawing.Size(288, 221);
             this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Text = "Wordle";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvWords)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -146,13 +149,13 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvWords;
         private System.Windows.Forms.DataGridViewTextBoxColumn clm1;
         private System.Windows.Forms.DataGridViewTextBoxColumn clm2;
         private System.Windows.Forms.DataGridViewTextBoxColumn clm3;
         private System.Windows.Forms.DataGridViewTextBoxColumn clm4;
         private System.Windows.Forms.DataGridViewTextBoxColumn clm5;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox mtxtInput;
     }
 }
 
